@@ -1,0 +1,23 @@
+# Ignore Node.js build artifacts
+node_modules/
+/dist/
+
+# Ignore Vue CLI service output
+/*.env
+/.env.local
+/.env.*.local
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore dependencies managed by npm or Yarn
+package-lock.json
+yarn.lock
